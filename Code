@@ -1,1 +1,12 @@
-print "You're breaking out of prison in the middle of the night! Don't get caught by the guards!!!"
+print ('You're breaking out of prison in the middle of the night! Don't get caught by the guards!!!')
+print ('You are in a room and you will choose one of two items and choose a direction.')
+print ('Please choose an item that may or may not help you escape...')
+
+def choooseItem():
+  item = ''
+  while item != 'flashlight' and item != 'police hat':
+  print ('Which item will you pick?' (police hat or flashlight))
+  item = input()
+  
+    return item
+    
